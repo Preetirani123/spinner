@@ -1,0 +1,13 @@
+let delay = 100;
+while (delay <= 5000) {
+setTimeout(() => {process.stdout.write('\r|   ')}, delay);
+delay += 200
+setTimeout(() => {process.stdout.write('\r/   ')}, delay);
+delay += 200
+setTimeout(() => {process.stdout.write('\r-   ')}, delay);
+delay += 200
+setTimeout(() => {process.stdout.write('\r\\   ')}, delay);
+delay += 200
+setTimeout(() => {process.stdout.write('\r|   ')}, delay);
+delay += 200}
+setTimeout(() => {process.stdout.write('\n')}, delay);
